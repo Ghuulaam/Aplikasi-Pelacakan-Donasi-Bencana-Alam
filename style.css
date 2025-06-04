@@ -1,0 +1,83 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #007BFF;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 2rem;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Button Styling */
+  button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    font-size: 0.875rem;
+  }
+  
